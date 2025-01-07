@@ -21,7 +21,7 @@
         "removeComments": true,
         "preserveConstEnums": true,
         "skipLibCheck": true,
-        "target": "es2021",
+        "target": "es2018",  //Changed from es2021 to allow use of ?. operator
         "types": ["node"],
         "moduleResolution": "node",
         "resolveJsonModule": true,
