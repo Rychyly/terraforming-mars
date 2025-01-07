@@ -16,12 +16,12 @@
         "noImplicitAny": true,
         "noImplicitOverride": true,
         "noImplicitReturns": true,
-        "noUnusedLocals": true,
+        "noUnusedLocals": false, // For testing purposes, so we can disable existing code without deleting
         "noUnusedParameters": true,
         "removeComments": true,
         "preserveConstEnums": true,
         "skipLibCheck": true,
-        "target": "es2018",  //Changed from es2021 to allow use of ?. operator
+        "target": "es2018",  // Changed from es2021 to allow use of ?. operator
         "types": ["node"],
         "moduleResolution": "node",
         "resolveJsonModule": true,

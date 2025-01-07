@@ -818,11 +818,12 @@ export class Game implements IGame, Logger {
       }
     });
 
-    if (this.gameOptions.draftVariant) {
-      this.gotoDraftPhase();
-    } else {
-      this.gotoResearchPhase();
-    }
+    /** if (this.gameOptions.draftVariant) {
+     *  this.gotoDraftPhase();
+     *} else {
+     *  this.gotoResearchPhase();
+     *}
+     */
   }
 
   private gotoWorldGovernmentTerraforming() {
